@@ -1,0 +1,96 @@
+.product-display {
+    background-color: rgb(224, 224, 224);
+    padding-right: 100px;
+    padding-bottom: 50px;
+    margin-right: -100px;
+    border-radius: 10px;
+    background-position: -50% 0%;
+}
+
+body {
+    background-color: rgb(40, 40, 150);
+}
+
+.header-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-right: 10px;
+    background: fixed;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: -50px;
+}
+
+.btn-logo {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.btn-logo:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.logo-shop {
+    margin-left: -75px;
+    border-radius: 5px;
+    background-color: none;
+}
+
+.product-image {
+    background-color: rgb(40, 40, 150);
+    margin-left: 100px;
+    margin-top: 12.5px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 5px black;
+}
+
+.product-name {
+    color: black;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding-left: 25px;
+    width: 750px;
+    height: 150px;
+    padding-bottom: 25px;
+}
+
+.btns-low {
+    background-color: transparent;
+    color: white;
+    margin-right: 400px;
+    margin-left: 10px;
+    display: flex;
+    gap: 150px;
+    padding-left: 60px;
+    width: 120%;
+}
+
+.btns-low:hover {
+    cursor: pointer;
+}
+
+.btns-low button {
+    background-color: transparent; 
+    border: none; 
+    color: black; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    padding-top: 50px;
+}
+
+.btns-low button:hover {
+    text-decoration: underline;
+}
